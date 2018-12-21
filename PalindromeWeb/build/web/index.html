@@ -9,11 +9,71 @@ and open the template in the editor.
         <title>Palindrome Check</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            <!--
+        	h1{
+        		color: white;
+        		margin: 0 auto;
+        		text-align: center;
+        		font-size: 90px;
+        		font-style: bold;
+        		font-family: Brush Script MT, Brush Script Std, cursive;
+        	}
+        	body {
+	 			 background-image: url("orange.jpg");
+	 			 background-repeat: no-repeat;
+	 			 background-position: right top;
+	 			 background-size: cover;
+	 			 padding-top: 40px;
+  				 padding-right: 30px;
+  				 padding-bottom: 50px;
+  				 padding-left: 80px;
+			}
+			form {
+				text-align: center;
+	    		width: 500px;
+	    		margin: 0 auto;
+			}
+			input[type=text] {
+ 			 width: 100%;
+  	  		 padding: 12px 20px;
+ 			 margin: 8px 0;
+ 			 box-sizing: border-box;
+
+			}
+			input[type=submit] {
+  			background-color: #ff0066;
+  			color: white;
+  			padding: 12px 20px;
+  			border: none;
+  			border-radius: 4px;
+  			cursor: pointer;
+  			text-align: center;
+                        }
+
+			input[type=submit]:hover {
+ 				 background-color: #d1a77b;
+			}
+			.footer {
+   				position: fixed;
+			   left: 0;
+			   bottom: 0;
+			   width: 100%;
+			   color: white;
+			   text-align: left;
+			   padding-left: 15px;
+			}
+                        -->
+        </style>
     </head>
     <body>
+    	<h1>Palindrome Checker</h1><br><br><br><br><br><br><br>
         <form action="PalindromeController" method="post">
             <input type="text" name="input-p" placeholder="Insert a string" />
             <input type="submit" value="Check Palindrome" />
         </form>
+        <div class="footer">
+  			<p>This web application is for academic purpose only.</p>
+		</div>
     </body>
 </html>
